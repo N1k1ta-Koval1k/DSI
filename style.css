@@ -1,0 +1,621 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #E5E5E5;
+    font-family: 'Roboto';
+    width: 1440px;
+}
+
+.header{
+    background-color: #FFFFFF;
+    width: 1440px;
+}
+
+.header-container {
+    width: 1440px;
+    height: 100px;
+    margin: 0px auto;
+    justify-content: space-between;
+    display: flex;
+}
+
+.header-logo{
+    /* width: 100%; */
+    height: 100px;
+}
+
+.header-text__DSI {
+    color: #000;
+    width: 71.51px;
+    height: 56px;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: -0.05em;
+    margin-left: 158px;
+    margin-top: 22px;
+    display: inline-block;
+    justify-content: space-between;
+    text-decoration: none;
+    
+}
+
+.span-D{
+    color: #85171A;
+}
+
+.span-S{
+    color: #DC2025;
+}
+
+.span-I{
+    color: #FEBA08;
+}
+
+.span-color{
+    color: #EE4248;
+}
+
+.header-text__DWIDASA-SAMSARA-INDONESIA {
+    margin-left: 0px;
+    margin-top: 30px;
+    display: inline-block;
+}
+
+.header-text__DWIDASA {
+    width: 48.34px;
+    height: 12px;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 0.065em;
+    color: rgba(0, 0, 0, 0.6);
+
+}
+
+.header-text__SAMSARA {
+    width: 48.34px;
+    height: 12px;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 0.015em;
+    color: rgba(38, 50, 56, 0.8);
+
+}
+
+.header-text__INDONESIA {
+    width: 48.34px;
+    height: 12px;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: -0.05em;
+    color: #263238;
+
+}
+
+.header-menu{
+    list-style: none;
+    display: flex;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: rgba(31, 46, 53, 0.8);
+}
+
+
+
+.header-menu__item{
+    margin-top: 40px;
+    margin-left: 50px;
+}
+
+/* .header-menu__item::first-child{
+    padding-left: 100px;
+} */
+
+.header-menu__link{
+    text-decoration: none;
+    color: rgba(31, 46, 53, 0.8);
+
+}
+
+.header-menu__item-photo{
+    margin-top: 40px;
+    margin-left: 8px;
+}
+
+.header-menu__link-photo-element{
+    width: 13px;
+    height: 9px;
+}
+
+.header-menu__photo-1{
+    width: 20px;
+    height: 18.59px;
+    margin-right: 24px;
+    margin-left: 116px;
+    margin-top: 41px;
+}
+
+.header-menu__photo-2{
+    width: 20px;
+    height: 16px;
+    margin-right: 32px;
+    margin-top: 42px;
+}
+
+.header-menu__photo-3{
+    width: 16px;
+    height: 16px;
+    margin-right: 157px;
+    margin-top: 42px;
+}  
+
+.box1{
+    background-color: #E5E5E5;
+    width: 1125px;
+    height: 500px;
+    margin-top: 51px;
+    margin-left: 157px;
+    display: inline-block;
+}
+
+.box1-text{
+    width: 545px;
+    height: 351px;
+    margin-top: 74px;
+    display: inline-block;
+}
+
+.box1-title{
+    width: 545px;
+    height: 192px;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 133.69%;
+    color: #1F2E35;
+    display: inline-block;
+}
+
+
+
+.box1-title__text{
+    margin-top: 24px;
+    width: 520px;
+    height: 58px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    color: #30444E;
+    display: inline-block;
+}
+
+.box1-button{
+    background-color: #EE4248;
+    width: 161px;
+    height: 53px;
+    margin-top: 24px;
+    padding-left: 32px;
+    padding-top: 12px;
+    display: inline-block;
+}
+
+.box1-button__text{
+    color: #FFFFFF;
+    text-decoration: none;
+    width: 97px;
+    height: 29px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+}
+
+.test1{
+    width: 562.97px;
+    height: 381.61px;
+    display: inline-block;
+    justify-items: right;
+}
+
+.box2{
+    width: 1440px;
+    height: 500px;
+    background-color: #F7F7F7;
+    box-sizing: border-box;
+    justify-content: space-between;
+    display: inline-block;
+}
+
+.box2-photo{
+    width: 452.94px;
+    height: 349.42px;
+    display: inline-block;
+    margin-top: 80.58px;
+    margin-left: 193px;
+}
+
+.box2-photo__addition{
+
+    display: inline-block;
+}
+
+.box2-text{
+    width: 520px;
+    height: 380px;
+    margin-left: 62.08px;
+    margin-bottom: 63px;
+    display: inline-block;
+}
+
+.box2-text__title{
+    width: 454px;
+    height: 86px;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 133.69%;
+    color: #1F2E35;
+    display: inline-block;
+}
+
+.box2-text__text{
+    width: 520px;
+    height: 270px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #30444E;
+    margin-top: 24px;
+    display: inline-block;
+}
+
+
+
+
+
+
+
+.product-title-text{
+    width: 288px;
+    height: 43px;
+    margin-top: 116px;
+    margin-left: 576px;
+    margin-right: 576px;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 133.69%;
+    color: #1F2E35;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+
+
+.conteiner-cards{
+    width: 1440px;
+    height: 380px;
+    margin-bottom: 87px;
+    padding-left: 157px;
+}
+
+
+
+
+.product-card{
+    width: 363px;
+    height: 360px;
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+.product-card__photo{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    margin-top: 24px;
+}
+
+.product-card__title{
+    width: 151px;
+    height: 37px;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 133.69%;
+    color: #EE4248;
+    margin-top: 16.7px;
+    margin-left: 24px;
+}
+
+.product-card__text{
+    width: 319px;
+    height: 108px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #30444E;
+    margin-top: 15px;
+    margin-left: 24px;
+}
+
+.product-card__button{
+    width: 119px;
+    height: 42px;
+    background-color: #EE4248;
+    margin-top: 15px;
+    margin-left: 24px;
+    box-sizing: border-box;
+}
+
+.product-card__button-text{
+    width: 87px;
+    height: 26px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 144.69%;
+    color: #FFFFFF;
+    margin-top: 8px;
+    margin-left: 16px;
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+
+
+
+
+
+
+
+.service-card{
+    width: 363px;
+    height: 360px;
+    margin-top: 36px;
+    margin-left: 18px;
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+.service-card__photo{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    margin-top: 21px;
+}
+
+.service-card__title{
+    width: 151px;
+    height: 37px;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 133.69%;
+    color: #EE4248;
+    margin-top: 16.7px;
+    margin-left: 24px;
+}
+
+.service-card__text{
+    width: 329px;
+    height: 108px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #30444E;
+    margin-top: 15px;
+    margin-left: 24px;
+}
+
+.service-card__button{
+    width: 119px;
+    height: 42px;
+    background-color: #EE4248;
+    margin-top: 15px;
+    margin-left: 24px;
+    box-sizing: border-box;
+}
+
+.service-card__button-text{
+    width: 87px;
+    height: 26px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 144.69%;
+    color: #FFFFFF;
+    margin-top: 8px;
+    margin-left: 16px;
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+
+
+
+
+
+
+.tech-card{
+    width: 363px;
+    height: 360px;
+    margin-top: 99px;
+    margin-left: 18px;
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+.tech-card__photo{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    margin-top: 24px;
+}
+
+.tech-card__title{
+    width: 197px;
+    height: 37px;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 133.69%;
+    color: #EE4248;
+    margin-top: 16.7px;
+    margin-left: 24px;
+}
+
+.tech-card__text{
+    width: 329px;
+    height: 108px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #30444E;
+    margin-top: 15px;
+    margin-left: 24px;
+}
+
+.tech-card__button{
+    width: 119px;
+    height: 42px;
+    background-color: #EE4248;
+    margin-top: 15px;
+    margin-left: 24px;
+    box-sizing: border-box;
+}
+
+.tech-card__button-text{
+    width: 87px;
+    height: 26px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 144.69%;
+    color: #FFFFFF;
+    margin-top: 8px;
+    margin-left: 16px;
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+
+.product-button{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 144.69%;
+}
+
+
+
+
+.end-information{
+    width: 1126px;
+    height: 188px;
+    background-color: #E5E5E5;
+    margin-top: 87px;
+    margin-left: 157px;
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+.box__end-text{
+    width: 317px;
+    height: 188px;
+    padding-top: 28px;
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+.end-logo{
+    width: 119px;
+    height: 56px;
+    box-sizing: border-box;
+}
+
+.end-title__text{
+    width: 259px;
+    height: 21px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #263238;
+    margin-top: 10px;
+}
+
+.end-text{
+    width: 317px;
+    height: 54px;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 149.19%;
+    color: #263238;
+    margin-top: 8px;
+}
+
+.contact{
+    width: 269px;
+    height: 175px;
+    margin-left: 47px;
+    display: inline-block;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.contact-title{
+    width: 85px;
+    height: 28px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #263238;
+    display: inline-block;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.contact-information{
+    width: 269px;
+    height: 81px;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 149.19%;
+    color: #263238;
+    margin-top: 27px;
+    text-decoration: none;
+}
+
+
+
+.footer{
+    background-color: #EE4248;
+    width: 1440px;
+    height: 64px;
+    margin-top: 13px;
+    padding-left: 530px;
+    padding-top: 22px;
+}
+
+.footer-text{
+    width: 382px;
+    height: 21px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
